@@ -1,0 +1,5 @@
+📖 Konsep Dasar Props di React
+• Parent: komponen yang memanggil komponen lain.
+• Child: komponen yang dipanggil oleh parent.
+• Props: cara Parent mengirim data ke Child.
+• Child tidak bisa ubah props (read-only), cuma bisa terima & tampilkan.

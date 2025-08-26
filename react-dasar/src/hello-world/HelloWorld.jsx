@@ -1,22 +1,23 @@
 export function HelloWorld() {
+    const props = {
+        text:"Hello World"
+    }
   return (
     <div>
-        <HeaderHelloWorld/>
+        <HeaderHelloWorld {...props}/>
         <ParagraphHelloWorld/>
     </div>
   )
 }
 
-export function HeaderHelloWorld() {
-    const header = "Hello World"
-    
+export function HeaderHelloWorld({text = "Teks header belum diisi."}) {   
   return (
     <div>
       <h1 style={{
-        color:"aliceblue",
+        color:"yellow",
         backgroundColor:"black"
       }}>
-        { header.toUpperCase() }
+        { text.toUpperCase() }
     </h1>
     </div>
   )
@@ -25,7 +26,7 @@ export function HeaderHelloWorld() {
 export function ParagraphHelloWorld() {
     const paragraph = "Selamat belajar react.js"
     const style = {
-        color: "green",
+        color: "red",
         backgroundColor: "gray"
     }
   return (

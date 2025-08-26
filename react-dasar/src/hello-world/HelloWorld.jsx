@@ -8,17 +8,31 @@ export function HelloWorld() {
 }
 
 export function HeaderHelloWorld() {
+    const header = "Hello World"
+    
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1 style={{
+        color:"aliceblue",
+        backgroundColor:"black"
+      }}>
+        { header.toUpperCase() }
+    </h1>
     </div>
   )
 }
 
 export function ParagraphHelloWorld() {
+    const paragraph = "Selamat belajar react.js"
+    const style = {
+        color: "green",
+        backgroundColor: "gray"
+    }
   return (
     <div>
-      <p>Selamat belajar react.js</p>
+      <p style={style}>
+        { paragraph.toLowerCase() }
+      </p>
     </div>
   )
 }

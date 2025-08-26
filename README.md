@@ -108,5 +108,5 @@ Repo ini bersifat personal untuk belajar, tapi jika ada masukan silakan buat **I
 ## 📬 Kontak
 
 👤 **Fazri Suhada**
-🔗 [GitHub](https://github.com/fazrisuhada) | [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/fazri-suhada-957176199/))
+🔗 [GitHub](https://github.com/fazrisuhada) | [LinkedIn](https://www.linkedin.com/in/fazri-suhada-957176199/)
 

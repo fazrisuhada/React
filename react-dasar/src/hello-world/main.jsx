@@ -7,6 +7,7 @@ import AlertButton from "../button/AlertButton";
 import MyButton from "../button/MyButton";
 import Toolbar from "../button/Toolbar";
 import SearchForm from "../form/SearchForm";
+import Counter from "../form/Counter";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,7 +24,10 @@ createRoot(document.getElementById("root")).render(
         e.stopPropagation()
         alert("you are clik toolbar.")
       }}/>
+      
       <SearchForm/>
+
+      <Counter />
     </Container>
   </StrictMode>
 );

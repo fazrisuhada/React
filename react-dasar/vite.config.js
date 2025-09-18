@@ -7,7 +7,8 @@ export default defineConfig({
   build:{
     rollupOptions:{
       index: "index.html",
-      hello_world: "hello-world.html"
+      hello_world: "hello-world.html",
+      contact: "contact.html"
     }
   }
 })

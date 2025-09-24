@@ -8,7 +8,9 @@ export default defineConfig({
     rollupOptions:{
       index: "index.html",
       hello_world: "hello-world.html",
-      contact: "contact.html"
+      contact: "contact.html",
+      note: "note.html",
+      task: "task.html"
     }
   }
 })

@@ -10,7 +10,8 @@ export default defineConfig({
       hello_world: "hello-world.html",
       contact: "contact.html",
       note: "note.html",
-      task: "task.html"
+      task: "task.html",
+      timer: "timer.html"
     }
   }
 })

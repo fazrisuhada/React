@@ -12,7 +12,8 @@ export default defineConfig({
       note: "note.html",
       task: "task.html",
       timer: "timer.html",
-      guest: "guest.html"
+      guest: "guest.html",
+      online: "online.html"
     }
   }
 })

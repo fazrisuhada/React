@@ -10,6 +10,7 @@ import Costumer from './Costumer.jsx'
 import Seller from './Seller.jsx'
 import Data from './Data.jsx'
 import DataLayout from './DataLayot.jsx'
+import ProductDetail from './ProductDetail.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,7 +21,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/data" element={<DataLayout />}>
           <Route index element={<Data />} />
-          <Route path="product" element={<Product />} />
+          <Route path="products" element={<Product />} />
+          <Route path="product/:productId" element={<ProductDetail />} />
           <Route path="customer" element={<Costumer />} />
           <Route path="Seller" element={<Seller />} />
         </Route>

@@ -12,6 +12,7 @@ import Data from './Data.jsx'
 import DataLayout from './DataLayot.jsx'
 import ProductDetail from './ProductDetail.jsx'
 import Image from './Image.jsx'
+import NotFound from './NotFound.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="customer" element={<Costumer />} />
           <Route path="Seller" element={<Seller />} />
         </Route>
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

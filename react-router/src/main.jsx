@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import './index.css'
 // import App from './App.jsx'
+import "./data.css"
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './Home.jsx'
 import About from './About.jsx'
@@ -26,8 +27,8 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Data />} />
           <Route path="products" element={<Product />} />
           <Route path="product/:productId" element={<ProductDetail />} />
-          <Route path="customer" element={<Costumer />} />
-          <Route path="Seller" element={<Seller />} />
+          <Route path="customers" element={<Costumer />} />
+          <Route path="sellers" element={<Seller />} />
         </Route>
         <Route path="/*" element={<NotFound />} />
       </Routes>
